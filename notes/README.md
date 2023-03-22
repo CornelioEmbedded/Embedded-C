@@ -103,3 +103,31 @@ cityTemperature = 25;
 - Variables have scopes
 - A variable scope refers to the accessibility of a variable in a given program or function.
 - For example, a variable may only be available within a specific function, or it may be available to the entire C program
+
+## Address of variables
+We can access to address of variables adding a `&` at the beggining of the variable.
+
+```c
+#include <stdio.h>
+
+int main()
+{
+    char variable_1 = 'A';
+    char variable_2 = 'B';
+
+    printf("Address of variable 1: %p\n", &variable_1);
+    printf("Address of variable 2: %p", &variable_2);
+
+    return 0;
+}
+```
+
+## Storage classes in C
+- Scope of a variable
+- Visibility of a variable or function
+- Life time of a variable
+
+### There are two widely used storage class specifiers in C
+- static
+- extern
+
