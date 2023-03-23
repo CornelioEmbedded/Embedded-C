@@ -131,3 +131,16 @@ int main()
 - static
 - extern
 
+### Extern
+Extern storage class specifier is used to access the global variable, which is defined outside the scope of a file.
+
+`extern` storage class specifier can also be used during the function call, when the function is defined outside the scope of the file
+
+The keyword `extern` is relevant only when your project consists of multiple files, and you need to access a variable defined in one file form another file. It is used to extend the visibility of a function or variable.
+
+## ASCII codes
+- The American National Standards Institute (ANSI), which developed ANSI C, also developed the ASCII codes.
+- ASCII stands for "American Standard Code for Information Interchange"
+- By using ASCII standard, you can encode 128 different characters, just need 7 bits to write ASCII code.
+
+
