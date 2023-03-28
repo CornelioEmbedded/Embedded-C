@@ -143,4 +143,13 @@ The keyword `extern` is relevant only when your project consists of multiple fil
 - ASCII stands for "American Standard Code for Information Interchange"
 - By using ASCII standard, you can encode 128 different characters, just need 7 bits to write ASCII code.
 
+## Functions in C
+- In C you write executable statements inside a function.
+- A C function is nothing but a collection of statements to perform a specific task.
+- Every C program has at least, one function called "main".
+- Using functions bring modularity to your code, easy to debug, modify and increases the maintainability of the code.
+- Using C function also minimizes code size and reducing code redundancy.
 
+### Function prototype (declaration)
+- In C functions first have to be dclared before they are used.
+- Prototype lets compilers to know about the return data type, argument list and their data type and order of arguments being passed to the function.
