@@ -153,3 +153,14 @@ The keyword `extern` is relevant only when your project consists of multiple fil
 ### Function prototype (declaration)
 - In C functions first have to be dclared before they are used.
 - Prototype lets compilers to know about the return data type, argument list and their data type and order of arguments being passed to the function.
+
+
+## Type casting
+Type casting is a way of converting a variable or data from one data type to another data type.
+
+Data will be truncated whern the higher data type is converted into lower
+
+### Types of casting
+- Implicit casting
+- Explicit casting
+
